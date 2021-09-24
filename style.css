@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap");
+
+body {
+	background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+	font-family: "Roboto Mono", monospace;
+}
+
+.container {
+	color: #1c1c1c;
+	background: #ecf4ff;
+	margin: 64px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	border-radius: 20px;
+	padding: 64px;
+}
+
+.perfil {
+	display: flex;
+	align-items: center;
+}
+
+.perfil-foto {
+	border-radius: 460px;
+	max-height: 200px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.titulo h3 {
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+}
+
+.projetos a:link,
+.projetos a:visited {
+	background-color: white;
+	color: black;
+	border: 2px solid blue;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover,
+a:active {
+	background-color: blue;
+	color: white;
+}
