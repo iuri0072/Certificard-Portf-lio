@@ -55,8 +55,8 @@ body {
 	display: inline-block;
 }
 
-a:hover,
-a:active {
+.projetos a:hover,
+.projetos a:active {
 	background-color: blue;
 	color: white;
 }
